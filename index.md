@@ -112,22 +112,23 @@ _Scribe_ was revolutionary when it was proposed, because it involved for the fir
 [![Cute Panda](https://upload.wikimedia.org/wikipedia/commons/c/cd/Panda_Cub_from_Wolong%2C_Sichuan%2C_China.JPG)](https://www.youtube.com/watch?v=dQw4w9WgXcQ "You got Rickroll’d!")
 
 ## Exercise 4
+```C#
+public class Person{
+  private string name;
+  private int age;
 
-    public class Person{
-     private string name;
-     private int age;
-
-     public Person(string initialName)
-     {
-       this.age = 0;
-       this.name = initialName;
-     }
-      public void PrintPerson()
-     {
-       Console.WriteLine(this.name + ", age " + this.age + " years");
-     }
-      public void GrowOlder()
-     {
-       this.age = this.age + 1;
-     }
-    }
+  public Person(string initialName)
+  {
+    this.age = 0;
+    this.name = initialName;
+  }
+  public void PrintPerson()
+  {
+    Console.WriteLine(this.name + ", age " + this.age + " years");
+  }
+  public void GrowOlder()
+  {
+    this.age = this.age + 1;
+  }
+}
+```
